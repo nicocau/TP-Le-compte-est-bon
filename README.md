@@ -189,7 +189,3 @@ Cette fois, dans la fonction main, lancez 5 résolution sous forme de processus,
 Ajoutez ces processus dans un groupe et stoppez les dès qu’un processus a trouvé 1 solution.
 
 Tentez de trouver 987 à partir de 2,4,6,8,15,75 en limitant à 3000 tests par résolution.
-
-Note perso :
----
-Il faudra utiliser la méthode de Monte Carlo.
