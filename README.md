@@ -3,6 +3,8 @@ TP : Le compte est bon
 
 http://emmanuel.adam.free.fr/site/spip.php?article203
 
+https://github.com/EmmanuelADAM/coursJavaAvance/tree/master/TP/CompteEstBon
+
 Enoncé
 ---
 L’objectif de ce TP est de de créer un programme qui permet de trouver à partir de six nombres entiers, et des 4 opérations entières, les étapes de calculs permettant d’atteindre un nombre objectif à 3 chiffres.
