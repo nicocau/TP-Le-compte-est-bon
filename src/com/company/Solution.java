@@ -63,7 +63,8 @@ public class Solution extends SolutionAbstraite {
         res.append("A partir de ").append(this.nombres).append(", tenter de trouver ").append(this.but).append("\n");
         String restmp = "";
         int nbProche = -1;
-        for (int i = 0; i < nbCalculsMax; i++) {
+        int i;
+        for (i = 0; i < nbCalculsMax; i++) {
             int calcul = this.calcule();
             if (calcul == this.but) {
                 nbProche = calcul;
@@ -81,7 +82,7 @@ public class Solution extends SolutionAbstraite {
             this.reinit();
         }
         res.append(restmp);
-        res.append("La solution donne : ").append(nbProche);
+        res.append("La solution donne : ").append(nbProche).append(" au bout de ").append(i).append(" iteration(s)");
         return res.toString();
     }
 
