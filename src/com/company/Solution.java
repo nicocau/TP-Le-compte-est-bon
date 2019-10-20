@@ -82,7 +82,8 @@ public class Solution extends SolutionAbstraite {
             this.reinit();
         }
         res.append(restmp);
-        res.append("La solution donne : ").append(nbProche).append(" au bout de ").append(i).append(" iteration(s)");
+        res.append("La solution donne : ").append(nbProche).append(" au bout de ").append(i).append(" iteration(s)\n");
+        res.append(nbProche);
         return res.toString();
     }
 
